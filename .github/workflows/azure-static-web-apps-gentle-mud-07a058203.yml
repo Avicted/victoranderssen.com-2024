@@ -26,8 +26,10 @@ jobs:
       - name: Deploy to Azure
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'VictorAnderssén-vite'
-          publish-profile: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_MUD_07A058203 }}
-          package: './dist'
+            app-name: 'VictorAnderssén-vite'
+            package: './dist'
+        env:
+            AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_MUD_07A058203 }}
+            credentials: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_MUD_07A058203 }}
 
                   
