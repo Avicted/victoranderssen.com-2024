@@ -6,6 +6,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
+  min-height: 100vh;
   background-color: white;
+}
+
+a {
+  font-weight: bold;
+}
+
+/* More padding for the main content */
+#main-content {
+  padding: 40px;
 }
