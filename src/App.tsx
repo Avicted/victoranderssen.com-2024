@@ -37,7 +37,7 @@ function App() {
             </p>
 
             <p className="mt-8 text-md font-medim text-justify leading-relaxed">
-              During my time at Åbo Akademi as a student I developed a 3D, C style C++ application for visualizing 100k galaxies + 100k randomly distributed galaxies, using the the OpenGL abstraction layer Raylib. The project is documented here: <a href="https://github.com/Avicted/galaxy_visualization_raylib" className="text-blue-500 hover:underline"> Galaxy Visualization</a> The real challenge in the course was to calculate 10.000.000.000 angles (10 Billion (In Swedish tio miljarder)) between the galaxies. The project was a success. The runtime of the program was roughly 1.7 seconds.
+              During my time at Åbo Akademi as a student I developed a 3D, C style C++ application for visualizing 100k galaxies + 100k randomly distributed galaxies, using the the OpenGL abstraction layer Raylib. The project is documented here: <a href="https://github.com/Avicted/galaxy_visualization_raylib" className="text-blue-500 hover:underline"> Galaxy Visualization</a> The real challenge in the course was to calculate 10.000.000.000 angles (10 Billion (In Swedish tio miljarder)) between the galaxies. The project was a success. The runtime of the program was roughly 2.3 seconds.
             </p>
 
             <p className="mt-8 text-md font-medim text-justify leading-relaxed">
