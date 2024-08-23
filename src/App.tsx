@@ -28,7 +28,7 @@ function App() {
 
           <div className="mt-16">
             <p className="text-md font-medim text-justify leading-relaxed">
-              Im an Engineer with a passion for web development and graphics programming including game development. I have been writing games in C#, C and C++ for a while. I have been working with web development for over 5 years. I have experience in both front-end and back-end development, and I am always looking to learn new technologies and improve my skills.
+              I have a master's degree in Computer Engineering and a bachelor's degree in Electrotechnics. with a passion for web development and graphics programming including game development. I have been writing games in C#, C and C++ for a while. I have been working with web development for over 5 years. I have experience in both front-end and back-end development, and I am always looking to learn new technologies and improve my skills.
             </p>
 
             <p className="mt-8 text-md font-medim text-justify leading-relaxed">
