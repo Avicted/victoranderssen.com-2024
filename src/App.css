@@ -2,6 +2,10 @@ body {
   background: linear-gradient(180deg, #ff235e 0%, #fd71ff 100%);
 }
 
+::selection {
+  background: #a386ec;
+}
+
 #main-content {
   display: flex;
   justify-content: center;
