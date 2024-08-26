@@ -3,7 +3,8 @@ body {
 }
 
 ::selection {
-  background: #a386ec;
+  background: #c267c2ce;
+  color: white;
 }
 
 #main-content {
