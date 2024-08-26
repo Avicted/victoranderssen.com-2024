@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(243, 238, 237);
+  background: linear-gradient(180deg, #ff235e 0%, #fd71ff 100%);
 }
 
 #main-content {

@@ -6,12 +6,11 @@ function App() {
     <>
       <div id="main-content" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 p-20">
         <div className="mx-auto max-w-3xl">
-          <div className="sm:flex">
+          <div className="sm:flex mt-8">
             <div className="h-36 w-36 rounded-full overflow-hidden mr-6">
               <img
                 className="h-full w-full bg-center bg-cover"
                 style={{ backgroundImage: `url(${VictorImage})` }}
-              // alt="Victor Anderssén"
               ></img>
             </div>
             <div>
@@ -19,8 +18,8 @@ function App() {
               <p className="mt-1 text-left text-lg font-medium">
                 Master of Science <br />
                 <span className='text-sm font-light leading-relaxed'>
-                  <p>(Technology) </p>
-                  <p>(Computer Engineering)</p>
+                  <p>Technology </p>
+                  <p>Computer Engineering</p>
                 </span>
               </p>
             </div>
@@ -48,7 +47,7 @@ function App() {
               My Master's Thesis: <a href="https://urn.fi/URN:NBN:fi-fe2024042321241" className="text-blue-500 hover:underline">Converting CUDA programs to run on AMD GPUs</a>. This work focuses on adapting very important legacy CUDA code for compatibility with both Nvidia and AMD hardware using AMD’s Heterogeneous-Computing Interface for Portability (HIP). The thesis presents a method for converting CUDA code and libraries to run on both platforms. This method was validated using a Quasi-Minimal Residual method (QMR) solver with test data from the <a href="https://ft.nephy.chalmers.se/dream/" className="text-blue-500 hover:underline">DREAM</a> (Disruption and Runaway Electron Analysis Model), which simulates unstable electrons in Tokamak fusion reactors. The test results showed comparable performance on AMD and Nvidia GPUs, demonstrating the effectiveness of the conversion process.
             </p>
 
-            <div className="mt-24">
+            <div className="mt-24 mb-24">
               <a
                 href="https://www.linkedin.com/in/victoranderssen/"
                 target="_blank"
@@ -64,9 +63,13 @@ function App() {
                 GitHub
               </a>
             </div>
+
+            <footer className="text-center text-sm font-medium font-gray text-gray-500 mt-12">
+              <p>{new Date().getFullYear()} Victor Anderssén</p>
+            </footer>
           </div>
         </div>
-      </div >
+      </div>
     </>
   )
 }
